@@ -5,11 +5,12 @@ import { Button, Li, Span } from './ContactItem.styled';
 
 export default function ContactItem({ id, name, phone }) {
   const dispatch = useDispatch();
+
   return (
     <Li>
       <Span>
         {' '}
-        &bull; {name}: {phone}
+        &bull; {name}: <br /> {phone}
       </Span>
 
       <Button type="button" onClick={() => dispatch(deleteContact(id))}>

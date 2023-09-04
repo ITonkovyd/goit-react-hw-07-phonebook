@@ -10,6 +10,7 @@ const Loader = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        marginTop: '10px',
       }}
       wrapperClass=""
       visible={true}

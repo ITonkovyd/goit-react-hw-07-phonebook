@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 500px;
-  /* min-width: max-content; */
-  /* min-height: max-content; */
+  width: 400px;
+  min-height: max-content;
   max-height: 95vh;
   margin: 5px auto;
   padding: 5px;
@@ -12,7 +11,3 @@ export const Container = styled.div`
   overflow: hidden;
   text-align: center;
 `;
-
-// export const Content = styled.div`
-//   text-align: center;
-// `;

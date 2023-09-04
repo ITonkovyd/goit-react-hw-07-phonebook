@@ -8,5 +8,4 @@ export const Ul = styled.ul`
   max-height: 300px;
   text-align: start;
   overflow-y: scroll;
-  /* outline: 2px solid red; */
 `;

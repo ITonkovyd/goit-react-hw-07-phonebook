@@ -8,6 +8,7 @@ export const Li = styled.li`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 4px;
   &:nth-child(odd) {
     background-color: lightblue;
   }

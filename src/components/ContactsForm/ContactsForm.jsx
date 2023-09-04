@@ -31,6 +31,8 @@ export default function ContactsForm() {
       alert(`${NameToTitleCase} is already in contacts.`);
     } else {
       dispatch(addContact(newContact));
+      setName('');
+      setNumber('');
     }
 
     e.target.reset();
@@ -43,6 +45,7 @@ export default function ContactsForm() {
         <Input
           type="text"
           name="name"
+          value={name}
           onChange={e => {
             setName(e.target.value);
           }}
@@ -56,6 +59,7 @@ export default function ContactsForm() {
         <Input
           type="tel"
           name="phone"
+          value={phone}
           onChange={e => {
             setNumber(e.target.value);
           }}

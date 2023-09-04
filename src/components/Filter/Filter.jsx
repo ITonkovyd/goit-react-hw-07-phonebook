@@ -12,7 +12,6 @@ export default function Filter() {
         <Input
           type="text"
           name="filter"
-          // ! До диспатча додати операцію фільтрування контактів (попередньо створивши її ----->   e.target.value.toLowerCase())
           onChange={e => dispatch(filterContacts(e.target.value.toLowerCase()))}
         />
       </label>
